@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/oleroessler/Documents/Universitaet/06_SS_2024/Prog1?/TestklausurProg1",
+      "program": "/Users/oleroessler/Documents/Universitaet/06_SS_2024/Prog1?/TestklausurProg1/build/Debug/outDebug"
+    }
+  ]
+}

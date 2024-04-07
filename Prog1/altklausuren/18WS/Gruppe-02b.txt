@@ -1,0 +1,73 @@
+Programmieren I - WS18/19 - Rekonstruktion
+
+1. Aufgabe: implementieren Sie die Funktion 
+"int count_target_string(char *text, char *string)", die zählt, wie oft "string"
+in "text" vorkommt. Es darf nur gezählt werden, wenn "string" von Leerzeichen
+umschlossen wird bzw. wenn es am Ende / am Anfang steht. Gehen Sie davon aus,
+dass nur Kleinbuchstaben und Leerzeichen vorkommen. Sie dürfen nur selbst
+programmierte Hilfsfunktionen und strlen() und strncmp() verwenden.
+
+Beispiele (Testfälle waren in der .c-Datei bereits programmiert):
+
+count_target_string("abc of", "of") -> 1
+count_target_string("abcof", "of")  -> 0
+count_target_string("ofabc", "of") -> 0
+count_target_string("of abc", "of")  -> 1
+count_target_string("abc of abc of", "of") -> 2
+
+2. Aufgabe: implementieren Sie eine Funktion
+"IntList* intersperse(IntList *list, int x)", die zwischen die Listenelemente
+den übergebenen Wert x einfügt. Die Funktion soll dabei die Ursprungsliste nicht
+verändern, sondern einen Zeiger auf die veränderte Kopie zurückgeben. Diese muss
+dynamisch allokiert werden - dies konnte man mit einer node()-Funktion bspw.
+erledigen, die bereits in der .c-Datei vorhanden war.
+
+Beispiele (Testfälle waren wieder vorgegeben):
+
+intersperse([1, 2, 3], -3) = [1, -3, 2, -3, 3]
+intersperse([1, 2], -3) = [1, -3, 2]
+
+Wichtigster Testfall war noch:
+intersperse([ ], -3) = [ ]
+
+Je nach Implementation konnte vorkommen, dass ihr im letzten Testfall statt "[ ]"
+"[0]" erhaltet. Lösung: man musste für den Fall, dass die übergebene IntList
+NULL ist, NULL zurückgeben.
+
+3. Aufgabe:
+a) Implementieren Sie die Funktion "int levels(Tree *tree)", die zurückgibt, wie
+hoch ein Baum ist. Dabei hat ein leerer Baum (tree == NULL) die Höhe 0, ein Baum
+ohne Nachfolger (tree->left == NULL && tree->right == NULL) die Höhe 1 usw.
+Die Implementierung sollte auch für asymmetrische Bäume gelten. Wenn ich mich
+richtig erinnere, gab es keine min/max stack/queue Hilfsfunktionen - die musste
+man ggf. selbst implementieren.
+b) (Nicht mehr ganz sicher, ungefähr so): implementieren Sie eine Funktion
+"void count_leaves_per_level(Tree *tree, int level, int *results)", die die
+Anzahl an Blättern einer n-ten Ebene zählt und diesen Wert dann in das n-te
+Element des übergebenen results-Arrays schreibt. Als Blatt zählen Knoten, die
+keine Nachfolger haben.
+
+In den Testfällen gab es symmetrische, asymmetrische und leere Bäume.
+
+4. Aufgabe: (Original-Formulierung war sehr kompliziert und abschreckend,
+sinngemäß war folgendes gefordert): implementieren Sie die Funktion
+"void derive_polynoms(int *polynoms, int *results)", die Ableitung der Polynome
+aus dem polynoms-Array in das results-Array schreibt.
+
+Hört sich erstmal schrecklich kompliziert an - schauen wir uns an, was die
+eigentlich von uns wollen: ein Array { 1, 2, 3 } bspw. soll "übersetzt" bedeuten
+f(x) = 1 * x⁰ + 2 * x¹ + 3 * x². Leitet man das ab, erhält man
+f'(x) = 2 * x⁰ + 6 * x¹. Das results-Array soll also für results[0] die 2
+enthalten und für results[1] die 6. Angegeben waren noch weitere Testfälle, die
+allesamt aber ähnlich waren. Kann mich an keinen "komplizierten" Testfall
+erinnern. Im Endeffekt war das ein 3-Zeiler - wenn man sich von der
+zunächst kompliziert erscheinenden Aufgabenstellung nicht abschrecken ließ.
+
+Zusatzbemerkungen: als Editor musste kWrite eingesetzt werden. Als Desktop-
+Umgebung wurde GNOME 3 (Linux) verwendet. Die Kompilierung erfolgte mittels
+Makefiles. Die gesamte Klausur war lösbar, ohne dass man selbst irgendeine
+prog1lib-Funktion verwenden musste.
+
+Text-Datei darf gerne ergänzt und Fehler korrigiert werden.
+
+Viel Erfolg!
