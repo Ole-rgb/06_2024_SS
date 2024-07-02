@@ -15,3 +15,4 @@ prog1lib:
 # pattern rule for compiling .c-file to executable
 %: %.c prog1lib
 	$(CC) $(CFLAGS)	$(DEBUG) $<	-L$(PROG1LIBDIR) -l$(PROG1LIBNAME) -lm -iquote$(PROG1LIBDIR) -o	$@
+

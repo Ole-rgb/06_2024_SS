@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/oleroessler/Documents/Universitaet/06_SS_2024/Prog1/prog1lib/script_examples",
-      "program": "/Users/oleroessler/Documents/Universitaet/06_SS_2024/Prog1/prog1lib/script_examples/build/Debug/outDebug"
+      "cwd": "/Users/oleroessler/Documents/Universitaet/06_SS_2024/Prog1/prog1lib/22WS",
+      "program": "/Users/oleroessler/Documents/Universitaet/06_SS_2024/Prog1/prog1lib/22WS/build/Debug/outDebug"
     }
   ]
 }

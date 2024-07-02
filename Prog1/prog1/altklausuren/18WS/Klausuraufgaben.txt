@@ -1,0 +1,115 @@
+WS 2018/2019
+
+Das basiert alles größtenteils auf Aussagen von anderen von daher sind manche Angaben ggf. etwas ungenau:
+
+Klausur???
+Aufgabe 1)
+Strings in einer Liste reversen
+Aufgabe 2)
+Aus einem Tree eine Liste machen
+Aufgabe 3)
+Summe aus Tree bilden ohne die Blätter (left and right==NULL)
+Aufgabe 4)
+Chars aus einem String entfernen
+
+Klausur 1b
+Aufgabe 3)
+Berechnen der Summe von inneren Tree Nodes
+Aufgabe 4)
+Remove String. 2 Strings gegeben. Alle chars die in String 1 vorkommen, aber nicht in String 2 in einen neuen allokierten String übergeben
+
+Klausur 1a
+Aufgabe 1)
+Baum in zwei Listen sortieren per Pointer. Alles kleiner als Grenze=Klein. Rest=Groß
+Aufgabe 2)
+String war gegeben. Sollte abwechselnd zu Upper und Lowercase gemacht werden mit bestimmter Anzahl (Also z.B. 2 Groß, 2 Klein)
+Aufgabe 3)
+Durch einen Baum gehen und zählen wie oft Kinder einen anderen Wert als Elternknoten hatten (Rekursiv)
+Aufgabe 4)
+Zwei Strings gegeben. Wenn der zweite im ersten vorhanden ist, Index zurückgeben. "?" ist Wildcard(Zählt also immer als entsprechender Buchstabe)
+
+Klausur 2a
+Aufgabe 1)
+Quersummenberechnung korrigieren und Methode implementieren wie oft in String zwei gleihe Symbole hintereinander vorkommen (Aufgabe schon aus WS16 bekannt?)
+Aufgabe 2)
+4 Stack Funktionen wie Push/Pop implementieren 
+Aufgabe 3)
+Das Leaf mit dem niedrigsten Level in einer Baumstruktur berechnen
+Aufgabe 4)
+Für _buchstabe neuen String allokieren und "_" entfernen und den ersten Buchstaben nach "_" groß Schreiben. 
+
+Klausur 2b
+Wurde bereits hochgeladen
+
+Klausur 3b 
+Aufgabe 1)
+Verschlüsselung von Buchstaben in einem String (Caesar Alg). Alle Kleinbuchstaben(!) sollten um 5 chars verschoben werden (War so ziemlich das gleiche wie in Assignment 6 glaube ich)
+Nur s_length/xmalloc/strlen
+Aufgabe 2)
+In einem Array(Matrix) prüfen wie oft ein Char vorkommt und in einem Array zurückgeben (weiß ich nicht mehr genau)
+Aufgabe 3)
+Summe in einem Tree bilden. Es dürfen nur alle Knoten gerechnet werden die mindestens einen Nachfolger haben (Wenn z.B. t->right noch mind. einen Nachfolger ungleich NULL hat -> mitrechnen=
+Aufgabe 4)
+Leerzeichen am Anfang/Ende eines Strings entfernen. Es darf nur s_length/xmalloc/strlen verwendet werden aus der prog1lib (Also kein s_trim)
+
+
+Klausur 4a
+Aufgabe ?
+Population einer Bienenkollonie auszählen. Die Königin legt mit einer bestimmten Formel die Eier pro Tag in Abhängigkeit von der Tagestemperatur. Nach 21 Tagen schlüfen die Eier
+und nach 6 Wochen sterben die Bienen ab. Rein geht ein Array mit den Temperaturen, die Länge des Arrays un der Tag der Auszählung.
+Aufgabe?
+at_least_four_sorted_digits (Siehe Assignment 14), wobei is_digit vorgegeben war
+Aufgabe ?
+Zwei listen Mergen
+Aufgabe? 
+Binärbaum geordnet ausgeben. Also erst den Linken dann den Rechten Teil.
+
+Klausur ?
+Aufgabe 1)
+String mit ROT 3 verschlüssen (siehe oben)
+Aufgabe 2)
+In einem 2 dimensionales char Array feststellen wie oft ein char in einer Spalte vorkommt und in ein neues 1dim array schreiben
+Aufgabe 3+4)
+Irgendwas mit Bäumen
+
+Klausur 5a)
+Aufgabe 1)
+Int wird vorgeben und jede Dezimalziffer soll in eine Liste übergeben werden
+Aufgabe 2)
+Gucken ob im String ein Zeichen doppelt vorkommt+Quersummenfunktion korrigieren
+
+Klausur 6b)
+Aufgabe 2)
+Differenz zwischen dem minimalen und dem maximalem Element in einer Liste von INT berechnen
+Aufgabe 3)
+Anzahl der Knoten in einem Baum die den selben Wert wie ihre Eltern haben
+
+Gruppe 7a)
+Aufgabe 1)
+Man hat ein Intervall [from, to[ gegeben woraus man die kleisnte Nummer, die das Prädikat P erfüllt zurückgeben soll (als IntOption)
+Aufgabe 4)
+Entferne von einem String alle Leerzeichen am Anfang (Siehe oben)
+
+
+Klausur 8b)
+1)
+Binary List machen aus gegebenem integervalue
+2)
+Aus einem Tree den Pfad mit dem größten Wert ausgeben
+3)
+Aus einer Liste letztes Element, list Size herausfinden und Append List funktion schreiben
+4)
+Aus einem String die länge der kürzesten Folge des Char c finden. Dazu noch Funktion schreiben die herausfindet ob der String mit einer Ziffer beginnt.
+
+8a)
+1)
+Irgendwas mit einem Baum
+2)
+Es sind 2 Strings gegeben, wenn der eine in dem anderen vorkommt, soll der String nach dem anderen String ausgegeben werden, sonst der ursprüngliche String. Mit allokieren
+3)
+Prüfen ob String mit : anfängt oder aufhört, maximal 1x: hat, sonst nur aus kleinen Buchstaben besteht und mindestens einen kleinen Buchstaben hat
+4)
+Center or Zero (Assignment 14)
+
+
+

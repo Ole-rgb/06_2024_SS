@@ -1,0 +1,23 @@
+durftest nur hilfsfkt nutzen ebenfalls xmalloc nur die richtige größe
+
+Hilfkt
+
+is_letter
+s_length
+
+
+
+zu implementieren.....
+
+
+_____'
+
+
+
+testfkt
+
+" "  " "
+"abc " "
+"1abc "1"
+"x11" "11"
+"1a2b3c4d" "1234"

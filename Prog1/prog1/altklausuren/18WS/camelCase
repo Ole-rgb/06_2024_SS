@@ -1,0 +1,33 @@
+(auf dem Zettel stand den originalstring nicht verändern und den zu nutzenden string nur soweit zu allokieren wie benötigt)
+
+
+
+hilfsfunktionen
+
+is_letter().... 
+
+is_upper()....
+
+is_lower()....
+
+to_upper()...
+
+to_lower()...
+
+
+
+
+ZU IMPLEMENTIEREN________
+
+
+
+_________________
+
+testfunktionen
+
+abcd   abcd
+Abcd   Abcd
+ABCD   A_b_c_d
+ABCDEF A_b_c_d_e_f
+ABCD EF A_b_c_d E_f
+

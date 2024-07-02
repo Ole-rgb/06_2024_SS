@@ -1,0 +1,4 @@
+(...) fast alles, was vorzufinden ist, kommt aus einer dilettantischen Hand, 
+welche kaum Pointer von atomaren Variablen zu unterscheiden wusste.
+Schlicht, nix kompiliert so wie es sein sollte und die Lösungen scheinen auf dem Papier niedergeschrieben worden zu sein; 
+ohne Anspruch auf Allgemeingültigkeit

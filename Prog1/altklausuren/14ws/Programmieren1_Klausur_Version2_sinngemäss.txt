@@ -1,8 +1,0 @@
-2 Version des Programmieren 1 Klausur
-
-Aufgabe 1 (C): Schreiben Sie eine Funktion, die das mittlere Element einer
-verketteten Listen zurückgibt. Wenn die Liste eine gerade Anzahl an Elementen hat
-soll eine Null zurückgegeben werden.
-
-Aufgabe 2 (Java): Schreiben Sie eine Methode, die zurückgibt, wie häufig es Child-
-und Parent-Nodes gibt, bei denen sich das Vorzeichen unterscheidet.
